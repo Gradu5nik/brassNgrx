@@ -1,3 +1,3 @@
 export interface DeckState {
-    deck: Deck<brassCard>[] //write a game library with Deck interface
+    deck: Deck<brassCard>[] // TODO write a game library with Deck interface
 }
