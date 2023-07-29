@@ -1,5 +1,7 @@
+import { IndustryType } from "src/models/brass/industryType.enum"
+
 export interface IndustryState{
     //make an enum for industry type
-    //type:'coal'...
+    type:IndustryType,
     tiles:IndustryTile[]
 }
