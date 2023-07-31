@@ -10,9 +10,9 @@ describe('Testing Deck generic',()=>{
         expect(deck).toBeTruthy()
         expect(deck.count).toBe(10)
         expect(deck.empty).toBeFalse()
-        if(numbers==deck.deck){
-            deck.shufle()
-        }
+        // if(numbers==deck.deck){
+        //     deck.shufle()
+        // }
         expect(deck.deck).not.toEqual(numbers)
     })
     it('can initialize an empty deck',()=>{
